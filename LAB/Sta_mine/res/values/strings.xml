@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sta_mine</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_second_activity">Second_activity</string>
+    <string name="que">What is the Currency of Switzerland ?</string>
+    <string name="op1">Swiss Franc</string>
+    <string name="op2">Swiss Dollar</string>
+    <string name="op3">Euro</string>
+    <string name="op4">Pound</string>
+    <string name="title_activity_third_">Third_Act</string>
+    <string name="title_activity_three_act">Three_act</string>
+    <string name="title_activity_winner">Winner</string>
+
+</resources>

@@ -1,0 +1,268 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScoresActivity" >
+
+    <TabHost
+        android:id="@android:id/tabhost"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:tabStripEnabled="true" >
+
+            </TabWidget>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <LinearLayout
+                    android:id="@+id/tab1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" 
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/sec10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Your High Score is : 10 "
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+                    
+                     <TextView
+                        android:id="@+id/sepr"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=" Double Player: "
+                        
+                        android:paddingTop="5sp"
+                        android:background="@drawable/score"
+                        android:gravity="center"
+                        android:paddingBottom="5sp"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    <TableLayout
+                        android:id="@+id/tl1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:shrinkColumns="*"
+        				android:stretchColumns="*" >
+
+                        <TableRow
+                            
+                            android:id="@+id/tableRow1"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal" >
+                            
+                        <TextView
+                        android:id="@+id/winne"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" Winner "
+                        android:gravity="center"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+                        
+                        <TextView
+                        android:id="@+id/scoree1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" Score "
+                        android:gravity="center"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+                        
+                        <TextView
+                        android:id="@+id/losee"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" Beats "
+                        android:gravity="center"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+                        
+                        <TextView
+                        android:id="@+id/scoree2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" Score "
+                        android:gravity="center"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+                        
+                            
+                        </TableRow>
+                    </TableLayout>
+                    
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+                    
+                    <TextView
+                        android:id="@+id/sec20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Your High Score is : 20 "
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+                     
+                     <TextView
+                        android:id="@+id/sepr1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=" Double Player: "
+                        android:background="@drawable/score"
+                        android:paddingTop="5sp"
+                        android:gravity="center"
+                        android:paddingBottom="5sp"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+                     
+                     <TableLayout
+                        android:id="@+id/tl2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:shrinkColumns="*"
+        				android:stretchColumns="*" >
+
+                        <TableRow
+                            
+                            android:id="@+id/tableRow12"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal" >
+                            
+                        <TextView
+                        android:id="@+id/winne1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" Winner "
+                        android:gravity="center"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+                        
+                        <TextView
+                        android:id="@+id/scoree3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" Score "
+                        android:gravity="center"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+                        
+                        <TextView
+                        android:id="@+id/losee2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" Beats "
+                        android:gravity="center"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+                        
+                        <TextView
+                        android:id="@+id/scoree4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" Score "
+                        android:gravity="center"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+                        
+                            
+                        </TableRow>
+                    </TableLayout>
+                     
+                    
+                    
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+                    
+                    <TextView
+                        android:id="@+id/sec30"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Your High Score is : 30 "
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+                    
+                     <TextView
+                        android:id="@+id/sepr2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=" Double Player: "
+                        android:background="@drawable/score"
+                        android:paddingTop="5sp"
+                        android:gravity="center"
+                        android:paddingBottom="5sp"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+                     
+                      <TableLayout
+                        android:id="@+id/tl3"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:shrinkColumns="*"
+        				android:stretchColumns="*" >
+
+                        <TableRow
+                            
+                            android:id="@+id/tableRow13"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal" >
+                            
+                        <TextView
+                        android:id="@+id/winne2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" Winner "
+                        android:gravity="center"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+                        
+                        <TextView
+                        android:id="@+id/scoree5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" Score "
+                        android:gravity="center"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+                        
+                        <TextView
+                        android:id="@+id/losee3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" Beats "
+                        android:gravity="center"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+                        
+                        <TextView
+                        android:id="@+id/scoree6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" Score "
+                        android:gravity="center"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+                        
+                            
+                        </TableRow>
+                    </TableLayout>
+                     
+                     
+                    
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+</RelativeLayout>

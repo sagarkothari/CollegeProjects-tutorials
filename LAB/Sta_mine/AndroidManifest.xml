@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sta_mine"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.sta_mine.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.sta_mine.Second_activity"
+            android:label="@string/title_activity_second_activity" >
+        </activity>
+        <activity
+            android:name="com.example.sta_mine.Third_Act"
+            android:label="@string/title_activity_third_" >
+        </activity>
+        <activity
+            android:name="com.example.sta_mine.Three_act"
+            android:label="@string/title_activity_three_act" >
+        </activity>
+        <activity
+            android:name="com.example.sta_mine.Winner"
+            android:label="@string/title_activity_winner" >
+        </activity>
+    </application>
+
+</manifest>
